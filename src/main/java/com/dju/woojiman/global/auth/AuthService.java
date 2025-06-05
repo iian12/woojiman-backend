@@ -1,9 +1,12 @@
 package com.dju.woojiman.global.auth;
 
-import com.dju.woojiman.domain.user.OAuth2Provider;
-import com.dju.woojiman.domain.user.OAuthAccount;
-import com.dju.woojiman.domain.user.UserRepository;
-import com.dju.woojiman.domain.user.Users;
+import com.dju.woojiman.domain.user.model.OAuth2Provider;
+import com.dju.woojiman.domain.user.model.OAuthAccount;
+import com.dju.woojiman.domain.user.repository.UserRepository;
+import com.dju.woojiman.domain.user.model.Users;
+import com.dju.woojiman.global.auth.dto.IdTokenDto;
+import com.dju.woojiman.global.auth.dto.LinkInfo;
+import com.dju.woojiman.global.auth.dto.TokenResult;
 import com.dju.woojiman.global.security.JwtTokenProvider;
 import com.google.api.client.googleapis.auth.oauth2.GoogleIdToken;
 import com.google.api.client.googleapis.auth.oauth2.GoogleIdTokenVerifier;

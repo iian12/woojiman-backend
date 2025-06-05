@@ -1,4 +1,4 @@
-package com.dju.woojiman.global.auth;
+package com.dju.woojiman.global.auth.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,7 +1,7 @@
 package com.dju.woojiman.global.security;
 
-import com.dju.woojiman.domain.user.UserRepository;
-import com.dju.woojiman.domain.user.Users;
+import com.dju.woojiman.domain.user.repository.UserRepository;
+import com.dju.woojiman.domain.user.model.Users;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
 import io.jsonwebtoken.security.SignatureException;
@@ -10,8 +10,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.security.Key;
-import java.time.Duration;
-import java.time.Instant;
 import java.util.Base64;
 import java.util.Date;
 import java.util.HashMap;

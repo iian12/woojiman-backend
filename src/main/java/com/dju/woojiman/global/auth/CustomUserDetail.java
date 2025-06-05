@@ -1,6 +1,6 @@
 package com.dju.woojiman.global.auth;
 
-import com.dju.woojiman.domain.user.Users;
+import com.dju.woojiman.domain.user.model.Users;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

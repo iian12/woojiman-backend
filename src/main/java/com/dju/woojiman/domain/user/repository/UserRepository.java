@@ -1,5 +1,6 @@
-package com.dju.woojiman.domain.user;
+package com.dju.woojiman.domain.user.repository;
 
+import com.dju.woojiman.domain.user.model.Users;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

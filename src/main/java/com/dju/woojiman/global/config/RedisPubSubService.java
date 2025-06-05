@@ -1,6 +1,6 @@
 package com.dju.woojiman.global.config;
 
-import com.dju.woojiman.domain.chat.ChatMessageDto;
+import com.dju.woojiman.domain.chat.dto.ChatMessageDto;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Qualifier;

@@ -1,7 +1,7 @@
 package com.dju.woojiman.global.auth;
 
-import com.dju.woojiman.domain.user.UserRepository;
-import com.dju.woojiman.domain.user.Users;
+import com.dju.woojiman.domain.user.repository.UserRepository;
+import com.dju.woojiman.domain.user.model.Users;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

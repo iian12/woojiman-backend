@@ -1,4 +1,4 @@
-package com.dju.woojiman.domain.user;
+package com.dju.woojiman.domain.user.model;
 
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.EnumType;

@@ -1,4 +1,4 @@
-package com.dju.woojiman.domain.chat;
+package com.dju.woojiman.domain.chat.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
